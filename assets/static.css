@@ -84,3 +84,15 @@ p {
     -ms-transform: scale(1);
     transform: scale(1);
 }
+
+::-webkit-scrollbar {
+    max-width: .2rem;
+    max-height: .2rem;
+  }
+::-webkit-scrollbar-track {
+    background: trasnparent;
+  }
+::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+    border-radius: .2rem;
+  }
