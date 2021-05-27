@@ -4,7 +4,7 @@ body {
     font-family: 'Rubik', sans-serif;
     padding: 5vh 10vw;
     font-size: calc(10px + 0.33vw);
-        -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 a {
     text-decoration: none;
@@ -95,4 +95,7 @@ p {
 ::-webkit-scrollbar-thumb {
     background: #FFFFFF;
     border-radius: .2rem;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
   }
