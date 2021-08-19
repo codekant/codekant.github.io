@@ -46,7 +46,7 @@ p {
     opacity: 0;
     z-index: 99;
     color: #16181a;
-    width: 9rem;
+    width: auto;
     display: block;
     font-size: 11px;
     padding: 5px 10px;
@@ -84,7 +84,6 @@ p {
     -ms-transform: scale(1);
     transform: scale(1);
 }
-
 ::-webkit-scrollbar {
     max-width: .2rem;
     max-height: .2rem;
