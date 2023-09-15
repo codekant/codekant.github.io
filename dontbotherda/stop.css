@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400&display=swap');
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Noto Serif JP', serif;
+}
+.endyourself {
+    text-align: center;
+    vertical-align: middle;
+    padding-top:10rem;
+}
+.ihatelife {
+    font-size: 6rem;
+    margin-bottom:0;
+}
+.sheleftmelol {
+    margin-top:0;
+    font-size:1rem;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:0px;
+}
+.fullscreen {
+    min-height: 100%;
+    min-width: 100%;
+}
