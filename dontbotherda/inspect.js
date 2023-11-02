@@ -2,14 +2,15 @@ window.onload = function() {
     VANTA.CLOUDS({
             el: ".fullscreen",
             mouseControls: true,
-            touchControls: true,
-            gyroControls: true,
-            skyColor: 0xd685e,
-            cloudColor: 0x1d3447,
-            cloudShadowColor: 0x0,
-            sunColor: 0x446a4c,
-            sunGlareColor: 0xae7d6c,
-            sunlightColor: 0xc78a8a,
-            speed: 1.5
-    })
+             touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+             minWidth: 200.00,
+             skyColor: 0x151313,
+             cloudColor: 0xf49393,
+             sunColor: 0x9d0813,
+             sunGlareColor: 0xb30c0c,
+            sunlightColor: 0xe3849d,
+            speed: 1.00
+    }) 
 }

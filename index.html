@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kant.</title>
+    <link rel="stylesheet" href="dontbotherda/plpl.css">
     <link rel="stylesheet" href="dontbotherda/stop.css">
+    <script src="dontbotherda/plpl.js"></script>
     <script src="dontbotherda/cranknineties.js"></script>
     <script src="dontbotherda/weewoo.js"></script>
     <script src="dontbotherda/inspect.js"></script>
@@ -17,10 +19,29 @@
 </head>
 <body>
     <div class="fullscreen">
+        <center>
         <div class="endyourself">
-            <p class="ihatelife">関東</p>
-            <p class="sheleftmelol">2021 年 12 月 9 日 - 2023 年 9 月 9 日</p>
+            <p class="ihatelife"></p>
+              <div class="player">
+                <audio id="player" loop controls>
+                <source src="dontbotherda/music/ewjoji.mp3" type="audio/mp3" />
+              </audio>
+             </div>
+              <script>
+                new Plyr('#player', {
+                         controls: ['play', 'progress', 'current-time', 'mute', 'airplay', 'download'],
+                        })
+              </script>
+              <style>
+                .player { 
+                    border-radius:5px;
+                    border-collapse: separate; 
+                    overflow: hidden;
+                }
+              </style>
+            <p class="sheleftmelol">ew - joji.</p>
         </div>
+        </center>
     </div>
 </body>
 </html>
