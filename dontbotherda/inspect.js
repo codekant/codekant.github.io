@@ -1,4 +1,4 @@
-let date = "22 December, 2023"
+let date = "1 January, 2024"
 window.onload = function() {
     VANTA.CLOUDS({
             el: ".fullscreen",
