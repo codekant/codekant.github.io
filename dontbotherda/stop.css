@@ -25,6 +25,10 @@ body {
 .sheleftmelol {
     margin-top:0;
     font-size:1rem;
+    margin-bottom:0;
+}
+#fps {
+    font-size:x-small;
 }
 .fade {
     opacity: 1;

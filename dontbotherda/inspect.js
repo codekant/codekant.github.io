@@ -1,17 +1,16 @@
-let date = "22 December, 2023"
+let date = "14 January, 2024"
 window.onload = function() {
-    VANTA.CLOUDS({
-            el: ".fullscreen",
-            mouseControls: true,
-             touchControls: true,
-            gyroControls: false,
-             skyColor: 0x151313,
-             cloudColor: 0xf49393,
-             sunColor: 0x9d0813,
-             sunGlareColor: 0xb30c0c,
-            sunlightColor: 0xe3849d,
-            speed: 1.00
-    }) 
+    VANTA.CELLS({
+        el: ".fullscreen",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x0,
+        color2: 0x19ac98
+      })
     function update(date) {
         const d = new Date(date);
         let timestamp = new Date(Date.now() - d);
@@ -30,4 +29,20 @@ window.onload = function() {
         }, 1000)
     }
     setInterval(() => {update(date)}, 1000)
+    var fps = document.getElementById("fps");
+    var startTime = Date.now();
+    var frame = 0;
+
+    function tick() {
+        var time = Date.now();
+        frame++;
+        if (time - startTime > 1000) {
+            fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(2) + " fps";
+        startTime = time;
+        frame = 0;
+	   }
+        window.requestAnimationFrame(tick);
+    }
+    tick();
+
 }
