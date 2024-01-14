@@ -1,15 +1,13 @@
-let date = "15 January, 2024"
+let date = "2 February, 2024"
 window.onload = function() {
     VANTA.CELLS({
         el: ".fullscreen",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
         scale: 1.00,
-        color1: 0x4c414c,
-        color2: 0x866686
+        color1: 0x6085c7,
+        color2: 0x487c7c
       })
     function update(date) {
         const d = new Date(date);
