@@ -6,8 +6,8 @@ window.onload = function() {
         touchControls: true,
         gyroControls: false,
         scale: 1.00,
-        color1: 0x6085c7,
-        color2: 0x487c7c
+        color1: 0xb0b0b,
+        color2: 0x909090
       })
     function update(date) {
         const d = new Date(date);
