@@ -42,5 +42,4 @@ window.onload = function() {
         window.requestAnimationFrame(tick);
     }
     tick();
-
 }
