@@ -1,4 +1,4 @@
-let date = "19 February, 2024"
+let date = "22 February, 2024"
 window.onload = function() {
     VANTA.CELLS({
         el: ".fullscreen",
