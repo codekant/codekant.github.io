@@ -1,14 +1,28 @@
-let date = "18 February, 2024"
+let date = "1 March, 2024"
 window.onload = function() {
-    VANTA.CELLS({
-        el: ".fullscreen",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        scale: 1.00,
-        color1: 0xb0b0b,
-        color2: 0x909090
-      })
+    if(window.innerWidth > 1024) {
+        VANTA.CELLS({
+            el: ".fullscreen",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            scale: 1.00,
+            size: 1.5,
+            color1: 0xb0b0b,
+            color2: 0x909090
+          })
+    } else {
+        VANTA.CELLS({
+            el: ".fullscreen",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            scale: 1.00,
+            size: .5,
+            color1: 0xb0b0b,
+            color2: 0x909090
+          })
+    }
     function update(date) {
         const d = new Date(date);
         let timestamp = new Date(Date.now() - d);
