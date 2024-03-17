@@ -1,4 +1,4 @@
-let date = "13 March, 2024"
+let date = "21 March, 2024"
 window.onload = function() {
     if(window.innerWidth > 1024) {
         VANTA.CELLS({
