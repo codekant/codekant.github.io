@@ -8,8 +8,8 @@ window.onload = function() {
             gyroControls: false,
             scale: 1.00,
             size: 1.5,
-            color1: 0xb0b0b,
-            color2: 0x909090
+            color1: 0x0,
+            color2: 0x476c72
           })
     } else {
         VANTA.CELLS({
@@ -19,8 +19,8 @@ window.onload = function() {
             gyroControls: false,
             scale: 1.00,
             size: .5,
-            color1: 0xb0b0b,
-            color2: 0x909090
+            color1: 0x0,
+            color2: 0x476c72
           })
     }
     function update(date) {
