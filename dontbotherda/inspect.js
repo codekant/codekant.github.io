@@ -1,26 +1,34 @@
-let date = "1 April, 2024"
+let date = "1 July, 2024"
 window.onload = function() {
     if(window.innerWidth > 1024) {
-        VANTA.CELLS({
+          VANTA.WAVES({
             el: ".fullscreen",
             mouseControls: true,
             touchControls: true,
             gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
             scale: 1.00,
             size: 1.5,
-            color1: 0x0,
-            color2: 0x476c72
+            scaleMobile: 0.5,
+            color: 0x0,
+            waveHeight: 22.50,
+            waveSpeed: 0.50,
           })
     } else {
-        VANTA.CELLS({
+          VANTA.WAVES({
             el: ".fullscreen",
             mouseControls: true,
             touchControls: true,
             gyroControls: false,
-            scale: 1.00,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: .5,
             size: .5,
-            color1: 0x0,
-            color2: 0x476c72
+            scaleMobile: 0.5,
+            color: 0x0,
+            waveHeight: 22.50,
+            waveSpeed: 0.50,
           })
     }
     function update(date) {
