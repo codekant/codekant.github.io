@@ -1,4 +1,4 @@
-let date = "16 September, 2024"
+let date = "1 January, 0100"
 window.onload = function() {
     if(window.innerWidth > 1024) {
           VANTA.WAVES({
@@ -11,7 +11,7 @@ window.onload = function() {
             scale: 1.00,
             size: 1.5,
             scaleMobile: 0.5,
-            color: 0x0,
+            color: 0x725372,
             waveHeight: 22.50,
             waveSpeed: 0.50,
           })
@@ -26,7 +26,7 @@ window.onload = function() {
             scale: .5,
             size: .5,
             scaleMobile: 0.5,
-            color: 0x0,
+            color: 0x725372,
             waveHeight: 22.50,
             waveSpeed: 0.50,
           })
