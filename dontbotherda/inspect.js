@@ -11,7 +11,7 @@ window.onload = function() {
             scale: 1.00,
             size: 1.5,
             scaleMobile: 0.5,
-            color: 0xb0b0b,
+            color: 0x0,
             waveHeight: 22.50,
             waveSpeed: 0.50,
           })
@@ -26,7 +26,7 @@ window.onload = function() {
             scale: .5,
             size: .5,
             scaleMobile: 0.5,
-            color: 0xb0b0b,
+            color: 0x0,
             waveHeight: 22.50,
             waveSpeed: 0.50,
           })

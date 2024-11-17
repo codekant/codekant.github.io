@@ -4,7 +4,7 @@
     --plyr-audio-controls-background: transparent;
     --plyr-badge-background: #fbdcf8;
     --plyr-audio-control-color: #fbdcf8;
-    --plyr-range-fill-background: #fc9ef4;
+    --plyr-range-fill-background: #f7b5f1;
     --plyr-audio-range-track-background: #fbdcf889;
 }
 body {
@@ -31,10 +31,11 @@ body {
 }
 #fps {
     font-size:small;
+    transition: opacity 0.5s ease-in-out;
 }
 .fade {
     opacity: 1;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 }
 html, body {
     height: 100%;
